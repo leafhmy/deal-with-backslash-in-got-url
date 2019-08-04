@@ -18,7 +18,7 @@ for j in range(1,21):
         for i in range(0,len(result)):
             for h in range(0,len(result)):
                 a = result[h]
-                b = a.replace("\\","/")
+                b = a.replace("\\","")
                 result[h] = b
             imgurl = "http://"+result[i]#构造完整图片网址
             file = "D:/Test/PIC/"+str(j)+"-"+str(i)+".jpg"#存放目录
